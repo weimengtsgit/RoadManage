@@ -1,0 +1,171 @@
+/* here you can put your own css to customize and override the theme */
+#scrollUp{bottom:10px;right:10px;height:38px;width:38px;background:url("../img/top.png") no-repeat}
+.divider{
+  *width: 100%;
+  height: 1px;
+  margin-bottom: 9px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  border-bottom: 1px solid #bbb;
+}
+
+/* hide all elements & show preloader */
+.hideall, .hideall body {overflow:hidden}
+.hideall body > * {visibility:hidden}
+.hideall .tab-pane {display:block !important}
+.hideall .hide {display: inherit}
+.hideall #loading_layer {visibility:visible;display:block !important;position:absolute;top:0;left:0;width:100%;height:100%;z-index:10000;background:#fff;}
+.hideall #loading_layer img {position:fixed;top:50%;left:50%;margin:-5px 0 0 -32px}
+
+/* dataTables_paginate paging_full_numbers */
+ .paging_full_numbers  a {
+  cursor: pointer; 
+  padding: 0px 6px 0px 6px;
+  color: #333;
+  text-decoration: none;
+}
+ .paging_full_numbers  a.paginate_button_disabled{
+  cursor: pointer; 
+  padding: 0px 6px 0px 6px;
+  color: #eee;
+  text-decoration: none;
+}
+
+.paging_full_numbers a:hover {
+  cursor: pointer; 
+  text-decoration: none;
+  background-image: none;
+  background-color: #eee;
+  color: #333;
+  filter:none;
+}
+.paging_full_numbers a.paginate_active {
+  cursor: pointer; 
+  text-decoration: none;
+  background-image: none;
+  background-color: #eee;
+  color: #333;
+  filter:none;
+}
+
+.portlet{
+	position: relative;
+}
+
+h5.form-section{
+	margin-top:0px;
+	font-weight:bold !important;
+}
+
+.form-group {
+margin-bottom: 5px;
+}
+p {
+margin: 0 0 2px 0px;
+}
+
+
+
+.header .navbar-brand.text-logo {
+  padding-left: 12px;
+  padding-top: 12px;
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+  font-size:22px;
+  /* font-weight:bold; */
+}
+
+
+.page-title {
+  padding: 0px;
+  font-size: 20px;
+  letter-spacing: -1px;
+  display: block;
+  color: #666;
+  margin: 0px 0px 15px 0px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page-sidebar-fixed .page-sidebar {
+  border-right: 0px solid #e2e2e2 !important;
+}
+
+.page-sidebar-fixed ul.page-sidebar-menu > li.active > a .selected {
+  display: block;
+  width: 8px;
+  height: 25px;
+  background-image: url("../img/sidebar-menu-arrow.png");
+  float: right;
+  position: absolute;
+  right:0px;
+  top:8px;
+}
+ul.page-sidebar-menu > li.active > a{
+ /*  background: #4D90FE !important; */
+  border-top-color: transparent !important;
+  color:#fff !important;
+}  
+
+
+/* 解决在MODAL中无法显示的BUG */
+.select2-drop {
+	z-index: 20000;
+}
+/*减小控件间的间隙，默认的是25px*/
+.dashboard-stat {
+margin-bottom: 10px;
+}
+.portlet {
+margin-bottom: 10px;
+}
+.note {
+margin: 0 0 10px 0;
+}
+
+/*表格的文字自动换行*/
+table td.word-break{
+	/*word-break: break-all !important; */
+	word-wrap:break-word !important;
+	white-space:pre-wrap !important;
+}
+/*  */
+.input-group-addon{
+height:34px ;
+}
+
+input.validate_hidden { position:absolute; height:0; width:0; border:0; }
+
+
+table tr  .tr-config-btn {
+  display:none;
+}
+
+table tr:hover  .tr-config-btn  {
+  display:inline-block;
+}
+
+
+i.fa.danger{
+color: #ed4e2a;
+}
+i.fa.info{
+color: #57b5e3;
+}
+i.fa.primary{
+color: #428bca ;
+}
+i.fa.warning{
+color: #fcb322;
+}
+i.fa.success{
+color: #3cc051;
+}
+i.fa.purple{
+color:#852b99;
+}
+
+
+a.no_padding{
+padding:0px;
+color:#ffffff !important;
+}

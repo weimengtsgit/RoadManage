@@ -1,0 +1,50 @@
+a.ghbutton{
+	background: url("ghicons.png") no-repeat 0px 0px;
+    padding:0 0 0 14px;
+}
+a.ghbutton.user{
+	background: url("ghicons.png") no-repeat 0px -360px;
+    padding:0 0 0 14px;
+}
+a.ghbutton.arrow{
+	background: url("ghicons.png") no-repeat 0px -36px;
+    padding:0 0 0 14px;
+}
+a.ghbutton.arrow.right{
+	background: url("ghicons.gif") no-repeat 100% -36px;
+    padding:0 14px 0 0;
+}
+a.ghbutton.search.right:hover{
+	background: url("ghicons.png") no-repeat 100% -228px;
+    padding:0 14px 0 0;
+    cursor: pointer;
+}
+a.ghbutton.search.right{
+	background: url("ghicons.png") no-repeat 100% -600px;
+    padding:0 14px 0 0;
+    cursor: pointer;
+}
+a.ghbutton.star:hover{
+	background: url("ghicons.png") no-repeat 0 -345px;
+    padding:0 8px 0 16px;
+    cursor: pointer;
+    color: white;
+}
+a.ghbutton.star{
+	background: url("ghicons.png") no-repeat 0 -717px;
+    padding:0 8px 0 16px;
+    cursor: pointer;
+    color: white;
+}
+a.ghbutton.star.active:hover{
+	background: url("ghicons.png") no-repeat 0 -345px;
+    padding:0 8px 0 16px;
+    cursor: pointer;
+    color: black;
+}
+a.ghbutton.star.active{
+	background: url("ghicons.png") no-repeat 0 -345px;
+    padding:0 8px 0 16px;
+    cursor: pointer;
+    color: black;
+}
