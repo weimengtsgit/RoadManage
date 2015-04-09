@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>无标题文档</title>
+
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<link href="css/body.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div  class="shop">
+  <div class="top_nav">
+      <div class="t_n_left01"><p>剩余时长:00:00:00</p><a href="#">延长时间</a></div>
+      <div class="t_n_right"><a href="#"><span class="top_nav_icon top_img_02"></span><p>我在这</p></a></div>
+    </div>
+
+  <div class="shop_body">
+    <div class="shop_ad" style="margin-top:50px;">
+      <div class="ad_pic"><img id="image_id" src=""></div>
+      <div class="ad_p" id="des_id"><a href="#"></a></div>
+    </div>
+    <div class="shop_d_box">
+    <ul>
+      <li>宝贝访问数<span>32324人</span></li>
+      <li> 活动日期<span>2014-1-1—2014-5-10日</span></li>
+    </ul>
+  </div>
+  <p class="link"><a href="#">在浏览器中查看</a><a href="#">分享</a></p>
+  </div>
+  
+  <!--底导航-->
+  <div class="down_nav">
+    <ul>
+      <li><a href="#"><span class="d_nav_icon icon03"></span>商户</a></li>
+      <li><a href="#"><span class="d_nav_icon icon04"></span>商场</a></li>
+      <li><a href="#"><span class="d_nav_icon icon05"></span>服务</a></li>
+    </ul>
+  </div>
+  <!--底导航-->
+  
+</div>
+<script type="text/javascript">
+			document.getElementById("image_id").src=(parent.$("#mall_imageAttachment_attachName_img").attr("src"));
+			document.getElementById("des_id").innerHTML=(parent.$("#details").val());
+			
+</script>
+</body>
+</html>
